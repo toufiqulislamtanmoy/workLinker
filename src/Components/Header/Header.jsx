@@ -6,16 +6,17 @@ import {
     Bars3BottomRightIcon,
     XMarkIcon,
 } from '@heroicons/react/24/solid'
+import Banner from '../Banner/Banner';
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
         <div className='bg-[#F9F9FF]'>
 
-            <div className=' px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
+            <div className='mycontainer'>
                 <div className='relative flex items-center justify-between'>
                     {/* Logo Section */}
                     <Link to='/' className='inline-flex items-center'>
-                        <h4 className='font-bold text-3xl'>WorkLinker</h4>
+                        <h4 className='font-bold text-3xl tracking-wider'>WorkLinker</h4>
                     </Link>
 
                     {/* Nav Items Section */}
@@ -56,7 +57,7 @@ const Header = () => {
                     {/* Applying start */}
                     <Link
                         to='/'
-                        className='bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                        className='lg:flex hidden bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
                     >
                         Start Applying
                     </Link>
@@ -102,23 +103,31 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <Link
-                                                    to='/books'
+                                                    to='/statistic'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                                 >
-                                                    Books
+                                                    Statistic
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link
-                                                    to='/about'
+                                                    to='/applyingjobs'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                                 >
-                                                    About Us
+                                                    Applying Jobs
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link
-                                                    to='/apply'
+                                                    to='/blogs'
+                                                    className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                                                >
+                                                    Blogs
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link
+                                                    to='/'
                                                     className='mt-11 bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
                                                 >
                                                     Start Applying
@@ -135,6 +144,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 };
