@@ -114,7 +114,7 @@ const Header = () => {
                                                     to='/applyingjobs'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                                 >
-                                                    Applying Jobs
+                                                    Applied Jobs
                                                 </Link>
                                             </li>
                                             <li>
