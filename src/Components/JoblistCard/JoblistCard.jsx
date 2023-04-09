@@ -4,7 +4,7 @@ const JoblistCard = ({singleJobList}) => {
     const {title,log,available_jobs} = singleJobList;
     return (
         <>
-            <div className="jobCatagoryList">
+            <div className="cardLayout bg-[#f6effb]">
                 <img className="w-10 ml-5  mt-5" src={log} alt="Card" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">{title}</div>

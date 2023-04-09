@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import JobCatagory from '../JobCatagory/JobCatagory';
 import { useLoaderData } from 'react-router-dom';
+import FeaturedJob from '../FeaturedJob/FeaturedJob';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
                 key={jobList.jobs.id}
                 jobList={jobList.jobs}
             />
+            <FeaturedJob/>
         </div>
     );
 };

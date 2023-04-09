@@ -6,7 +6,7 @@ const JobCatagory = ({ jobList }) => {
     return (
         <div className='mt-11 mycontainer'>
             <div className='text-center '>
-                <h2 className='text-3xl font-semibold'>Job Category List</h2>
+                <h2 className='text-3xl font-bold'>Job Category List</h2>
                 <p className='my-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
             {/* Job list card */}
