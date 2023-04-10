@@ -7,7 +7,7 @@ const FeatureJobCard = ({singleJobPost}) => {
     return (
         <>
             <div className='cardLayout mb-5'>
-                <img className="w-10 ml-5  mt-5" src={company_logo} alt="not" />
+                <img className="w-28 ml-5  mt-5" src={company_logo} alt="not" />
                 <div className="px-6 py-4">
                     <h2 className="font-bold text-2xl mb-2">{job_post_title}</h2>
                     <h4 className="text-gray-500 text-xl mb-2">{company_name}</h4>
