@@ -1,5 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const JobDetails = () => {
     const jobDetails = useLoaderData()
@@ -11,7 +13,7 @@ const JobDetails = () => {
         const isJobExists = existingApplications.find(application => application.unique_id === jobDetails.unique_id);
         
         if (isJobExists) {
-          alert('Job application already exists!');
+            toast("You already apply for that post");
           return;
         }
         
@@ -19,7 +21,7 @@ const JobDetails = () => {
         
         localStorage.setItem('jobApplications', JSON.stringify(updatedApplications));
         
-        alert('Job application added successfully!');
+        toast("Applied Successfull");
       };
       
       
