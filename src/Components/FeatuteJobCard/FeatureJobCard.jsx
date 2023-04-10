@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const FeatureJobCard = ({singleJobPost}) => {
-    console.log(singleJobPost)
     const {company_address,company_logo,company_name,job_location,job_post_title,job_type,salary_range,unique_id} = singleJobPost;
     return (
         <>
@@ -31,7 +30,7 @@ const FeatureJobCard = ({singleJobPost}) => {
 
                     </div>
                     <div className='mt-8'>
-                        <Link to='/jobDetails' className='bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>View Details</Link>
+                        <Link to={`/jobDetails/${unique_id}`} className='bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>View Details</Link>
                     </div>
                 </div>
             </div>

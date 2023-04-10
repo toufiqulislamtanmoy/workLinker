@@ -1,182 +1,181 @@
 {
-    "job_posts": [
-      {
-        "job_post_title": "Web Developer",
-        "company_name": "Google",
-        "company_logo": "https://i.ibb.co/1RB3b7D/google-1-1-1.png",
-        "unique_id": "1",
-        "salary_range": "$60,000 - $80,000",
-        "job_type": "Full-time",
-        "job_location": "Onsite",
-        "company_address": "456 Oak St, Anytown USA",
-        "company_phone": "(123) 456-7890",
-        "company_email": "jobs@xyzcorp.com",
-        "job_description": "We are looking for a talented web developer to join our team...",
-        "job_responsibilities": [
-          "Design and develop responsive websites using HTML, CSS, and JavaScript",
-          "Collaborate with UX/UI designers to implement website layouts and features",
-          "Optimize website performance and ensure cross-browser compatibility",
-          "Maintain and update existing websites and web applications",
-          "Participate in code reviews and contribute to team standards and best practices"
-        ],
-        "educational_requirements": "Bachelor's degree in Computer Science or related field",
-        "experience": "2+ years of experience in web development"
-      },
-      {
-        "job_post_title": "Sales Manager",
-        "company_name": "Netflix",
-        "company_logo": "https://i.ibb.co/gg77hgq/netflix-4-1.png",
-        "unique_id": "2",
-        "salary_range": "$80,000 - $100,000",
-        "job_type": "Full-time",
-        "job_location": "Onsite",
-        "company_address": "123 Main St, Anytown USA",
-        "company_phone": "(123) 456-7890",
-        "company_email": "jobs@abccorp.com",
-        "job_description": "We are seeking an experienced sales manager to lead our team...",
-        "job_responsibilities": [
-          "Develop and implement sales strategies to achieve revenue targets",
-          "Build and maintain relationships with key clients and partners",
-          "Manage and motivate sales team to achieve individual and team goals",
-          "Analyze sales data and market trends to identify growth opportunities",
-          "Prepare and present sales reports to senior management"
-        ],
-        "educational_requirements": "Bachelor's degree in Business Administration or related field",
-        "experience": "5+ years of experience in sales management"
-      },
-      {
-        "job_post_title": "Data Scientist",
-        "company_name": "Microsoft",
-        "company_logo": "https://i.ibb.co/Tgsc94C/microsoft-logo-png-2411.png",
-        "unique_id": "3",
-        "salary_range": "$90,000 - $120,000",
-        "job_type": "Full-time",
-        "job_location": "Onsite",
-        "company_address": "789 Elm St, Anytown USA",
-        "company_phone": "(123) 456-7890",
-        "company_email": "jobs@pqranalytics.com",
-        "job_description": "We are looking for a talented data scientist to join our team...",
-        "job_responsibilities": [
-          "Analyze large datasets and develop predictive models using machine learning algorithms",
-          "Collaborate with cross-functional teams to identify business problems and opportunities",
-          "Present findings and insights to senior management and clients",
-          "Develop and maintain data pipelines and automation workflows",
-          "Stay up-to-date with latest trends and advancements in data science and analytics"
-        ],
-        "educational_requirements": "Master's degree in Computer Science, Statistics, or related field",
-        "experience": "3+ years of experience in data science or analytics"
-      },
+	"job_posts": [{
+			"job_post_title": "Web Developer",
+			"company_name": "Google",
+			"company_logo": "https://i.ibb.co/1RB3b7D/google-1-1-1.png",
+			"unique_id": "1",
+			"salary_range": "$60,000 - $80,000",
+			"job_type": "Full-time",
+			"job_location": "Onsite",
+			"company_address": "456 Oak St, Anytown USA",
+			"company_phone": "(123) 456-7890",
+			"company_email": "jobs@xyzcorp.com",
+			"job_description": "We are looking for a talented web developer to join our team...",
+			"job_responsibilities": [
+				"Design and develop responsive websites using HTML, CSS, and JavaScript",
+				"Collaborate with UX/UI designers to implement website layouts and features",
+				"Optimize website performance and ensure cross-browser compatibility",
+				"Maintain and update existing websites and web applications",
+				"Participate in code reviews and contribute to team standards and best practices"
+			],
+			"educational_requirements": "Bachelor's degree in Computer Science or related field",
+			"experience": "2+ years of experience in web development"
+		},
+		{
+			"job_post_title": "Sales Manager",
+			"company_name": "Netflix",
+			"company_logo": "https://i.ibb.co/gg77hgq/netflix-4-1.png",
+			"unique_id": "2",
+			"salary_range": "$80,000 - $100,000",
+			"job_type": "Full-time",
+			"job_location": "Onsite",
+			"company_address": "123 Main St, Anytown USA",
+			"company_phone": "(123) 456-7890",
+			"company_email": "jobs@abccorp.com",
+			"job_description": "We are seeking an experienced sales manager to lead our team...",
+			"job_responsibilities": [
+				"Develop and implement sales strategies to achieve revenue targets",
+				"Build and maintain relationships with key clients and partners",
+				"Manage and motivate sales team to achieve individual and team goals",
+				"Analyze sales data and market trends to identify growth opportunities",
+				"Prepare and present sales reports to senior management"
+			],
+			"educational_requirements": "Bachelor's degree in Business Administration or related field",
+			"experience": "5+ years of experience in sales management"
+		},
+		{
+			"job_post_title": "Data Scientist",
+			"company_name": "Microsoft",
+			"company_logo": "https://i.ibb.co/Tgsc94C/microsoft-logo-png-2411.png",
+			"unique_id": "3",
+			"salary_range": "$90,000 - $120,000",
+			"job_type": "Full-time",
+			"job_location": "Onsite",
+			"company_address": "789 Elm St, Anytown USA",
+			"company_phone": "(123) 456-7890",
+			"company_email": "jobs@pqranalytics.com",
+			"job_description": "We are looking for a talented data scientist to join our team...",
+			"job_responsibilities": [
+				"Analyze large datasets and develop predictive models using machine learning algorithms",
+				"Collaborate with cross-functional teams to identify business problems and opportunities",
+				"Present findings and insights to senior management and clients",
+				"Develop and maintain data pipelines and automation workflows",
+				"Stay up-to-date with latest trends and advancements in data science and analytics"
+			],
+			"educational_requirements": "Master's degree in Computer Science, Statistics, or related field",
+			"experience": "3+ years of experience in data science or analytics"
+		},
 
-      {
-        "job_post_title": "Web Developer",
-        "company_name": "Amazon",
-        "company_logo": "https://i.ibb.co/8Yx624V/amazon-logo-transparent.png",
-        "unique_id": "4",
-        "salary_range": "$60,000 - $80,000",
-        "job_type": "Full-time",
-        "job_location": "Onsite",
-        "company_address": "456 Oak St, Anytown USA",
-        "company_phone": "(123) 456-7890",
-        "company_email": "jobs@xyzcorp.com",
-        "job_description": "We are looking for a talented web developer to join our team...",
-        "job_responsibilities": [
-          "Design and develop responsive websites using HTML, CSS, and JavaScript",
-          "Collaborate with UX/UI designers to implement website layouts and features",
-          "Optimize website performance and ensure cross-browser compatibility",
-          "Maintain and update existing websites and web applications",
-          "Participate in code reviews and contribute to team standards and best practices"
-        ],
-        "educational_requirements": "Bachelor's degree in Computer Science or related field",
-        "experience": "2+ years of experience in web development"
-      },
-      {
-        "job_post_title": "Sales Manager",
-        "company_name": "Disney + Hotstar",
-        "company_logo": "https://i.ibb.co/tH08nGP/Disney-White-Logo-wine.png",
-        "unique_id": "5",
-        "salary_range": "$80,000 - $100,000",
-        "job_type": "Full-time",
-        "job_location": "Onsite",
-        "company_address": "123 Main St, Anytown USA",
-        "company_phone": "(123) 456-7890",
-        "company_email": "jobs@abccorp.com",
-        "job_description": "We are seeking an experienced sales manager to lead our team...",
-        "job_responsibilities": [
-          "Develop and implement sales strategies to achieve revenue targets",
-          "Build and maintain relationships with key clients and partners",
-          "Manage and motivate sales team to achieve individual and team goals",
-          "Analyze sales data and market trends to identify growth opportunities",
-          "Prepare and present sales reports to senior management"
-        ],
-        "educational_requirements": "Bachelor's degree in Business Administration or related field",
-        "experience": "5+ years of experience in sales management"
-      },
-      {
-        "job_post_title": "Data Scientist",
-        "company_name": "Meta Corporation",
-        "company_logo": "https://i.ibb.co/qCzQXP8/61fae2f695e6ca00047b4f13.png",
-        "unique_id": "6",
-        "salary_range": "$90,000 - $120,000",
-        "job_type": "Full-time",
-        "job_location": "Onsite",
-        "company_address": "789 Elm St, Anytown USA",
-        "company_phone": "(123) 456-7890",
-        "company_email": "jobs@pqranalytics.com",
-        "job_description": "We are looking for a talented data scientist to join our team...",
-        "job_responsibilities": [
-          "Analyze large datasets and develop predictive models using machine learning algorithms",
-          "Collaborate with cross-functional teams to identify business problems and opportunities",
-          "Present findings and insights to senior management and clients",
-          "Develop and maintain data pipelines and automation workflows",
-          "Stay up-to-date with latest trends and advancements in data science and analytics"
-        ],
-        "educational_requirements": "Master's degree in Computer Science, Statistics, or related field",
-        "experience": "3+ years of experience in data science or analytics"
-      },
+		{
+			"job_post_title": "Web Developer",
+			"company_name": "Amazon",
+			"company_logo": "https://i.ibb.co/8Yx624V/amazon-logo-transparent.png",
+			"unique_id": "4",
+			"salary_range": "$60,000 - $80,000",
+			"job_type": "Full-time",
+			"job_location": "Onsite",
+			"company_address": "456 Oak St, Anytown USA",
+			"company_phone": "(123) 456-7890",
+			"company_email": "jobs@xyzcorp.com",
+			"job_description": "We are looking for a talented web developer to join our team...",
+			"job_responsibilities": [
+				"Design and develop responsive websites using HTML, CSS, and JavaScript",
+				"Collaborate with UX/UI designers to implement website layouts and features",
+				"Optimize website performance and ensure cross-browser compatibility",
+				"Maintain and update existing websites and web applications",
+				"Participate in code reviews and contribute to team standards and best practices"
+			],
+			"educational_requirements": "Bachelor's degree in Computer Science or related field",
+			"experience": "2+ years of experience in web development"
+		},
+		{
+			"job_post_title": "Sales Manager",
+			"company_name": "Disney + Hotstar",
+			"company_logo": "https://i.ibb.co/tH08nGP/Disney-White-Logo-wine.png",
+			"unique_id": "5",
+			"salary_range": "$80,000 - $100,000",
+			"job_type": "Full-time",
+			"job_location": "Onsite",
+			"company_address": "123 Main St, Anytown USA",
+			"company_phone": "(123) 456-7890",
+			"company_email": "jobs@abccorp.com",
+			"job_description": "We are seeking an experienced sales manager to lead our team...",
+			"job_responsibilities": [
+				"Develop and implement sales strategies to achieve revenue targets",
+				"Build and maintain relationships with key clients and partners",
+				"Manage and motivate sales team to achieve individual and team goals",
+				"Analyze sales data and market trends to identify growth opportunities",
+				"Prepare and present sales reports to senior management"
+			],
+			"educational_requirements": "Bachelor's degree in Business Administration or related field",
+			"experience": "5+ years of experience in sales management"
+		},
+		{
+			"job_post_title": "Data Scientist",
+			"company_name": "Meta Corporation",
+			"company_logo": "https://i.ibb.co/qCzQXP8/61fae2f695e6ca00047b4f13.png",
+			"unique_id": "6",
+			"salary_range": "$90,000 - $120,000",
+			"job_type": "Full-time",
+			"job_location": "Onsite",
+			"company_address": "789 Elm St, Anytown USA",
+			"company_phone": "(123) 456-7890",
+			"company_email": "jobs@pqranalytics.com",
+			"job_description": "We are looking for a talented data scientist to join our team...",
+			"job_responsibilities": [
+				"Analyze large datasets and develop predictive models using machine learning algorithms",
+				"Collaborate with cross-functional teams to identify business problems and opportunities",
+				"Present findings and insights to senior management and clients",
+				"Develop and maintain data pipelines and automation workflows",
+				"Stay up-to-date with latest trends and advancements in data science and analytics"
+			],
+			"educational_requirements": "Master's degree in Computer Science, Statistics, or related field",
+			"experience": "3+ years of experience in data science or analytics"
+		},
 
-      {
-        "job_post_title": "Graphic Designer",
-        "company_name": "Marvel Studios",
-        "company_logo": "https://i.ibb.co/gSpGnVY/marvel-logo-34281.png",
-        "unique_id": "7",
-        "salary_range": "$50,000 - $70,000",
-        "job_type": "Full-time",
-        "job_location": "Onsite",
-        "company_address": "111 First St, Anytown USA",
-        "company_phone": "(123) 456-7890",
-        "company_email": "jobs@lmnstudios.com",
-        "job_description": "We are seeking a creative and talented graphic designer to join our team...",
-        "job_responsibilities": [
-          "Create visually appealing designs for print and digital media",
-          "Collaborate with marketing and creative teams to develop design concepts and ideas",
-          "Manage multiple design projects simultaneously and meet deadlines",
-          "Present design concepts and solutions to clients",
-          "Stay up-to-date with latest design trends and tools"
-        ],
-        "educational_requirements": "Bachelor's degree in Graphic Design or related field",
-        "experience": "2+ years of experience in graphic design"
-      },
-      {
-        "job_post_title": "Software Engineer",
-        "company_name": "Tesla",
-        "company_logo": "https://i.ibb.co/RSv7fgD/tesla-9-1.png",
-        "unique_id": "8",
-        "salary_range": "$80,000 - $100,000",
-        "job_type": "Full-time",
-        "job_location": "Remote",
-        "company_address": "789 Second St, Anytown USA",
-        "company_phone": "(123) 456-7890",
-        "company_email": "jobs@deftech.com",
-        "job_description": "We are looking for a skilled software engineer to work remotely...",
-        "job_responsibilities": [
-          "Design and develop high-quality software solutions",
-          "Collaborate with cross-functional teams to deliver project milestones",
-          "Write clean and maintainable code using best practices",
-          "Participate in code reviews and contribute to team standards and best practices",
-          "Stay up-to-date with latest technologies and advancements in software engineering"
-        ],
-        "educational_requirements": "Bachelor's degree in Computer Science or related field",
-        "experience": "3+ years of experience in software engineering"
-      }
-    ]
+		{
+			"job_post_title": "Graphic Designer",
+			"company_name": "Marvel Studios",
+			"company_logo": "https://i.ibb.co/gSpGnVY/marvel-logo-34281.png",
+			"unique_id": "7",
+			"salary_range": "$50,000 - $70,000",
+			"job_type": "Full-time",
+			"job_location": "Onsite",
+			"company_address": "111 First St, Anytown USA",
+			"company_phone": "(123) 456-7890",
+			"company_email": "jobs@lmnstudios.com",
+			"job_description": "We are seeking a creative and talented graphic designer to join our team...",
+			"job_responsibilities": [
+				"Create visually appealing designs for print and digital media",
+				"Collaborate with marketing and creative teams to develop design concepts and ideas",
+				"Manage multiple design projects simultaneously and meet deadlines",
+				"Present design concepts and solutions to clients",
+				"Stay up-to-date with latest design trends and tools"
+			],
+			"educational_requirements": "Bachelor's degree in Graphic Design or related field",
+			"experience": "2+ years of experience in graphic design"
+		},
+		{
+			"job_post_title": "Software Engineer",
+			"company_name": "Tesla",
+			"company_logo": "https://i.ibb.co/RSv7fgD/tesla-9-1.png",
+			"unique_id": "8",
+			"salary_range": "$80,000 - $100,000",
+			"job_type": "Full-time",
+			"job_location": "Remote",
+			"company_address": "789 Second St, Anytown USA",
+			"company_phone": "(123) 456-7890",
+			"company_email": "jobs@deftech.com",
+			"job_description": "We are looking for a skilled software engineer to work remotely...",
+			"job_responsibilities": [
+				"Design and develop high-quality software solutions",
+				"Collaborate with cross-functional teams to deliver project milestones",
+				"Write clean and maintainable code using best practices",
+				"Participate in code reviews and contribute to team standards and best practices",
+				"Stay up-to-date with latest technologies and advancements in software engineering"
+			],
+			"educational_requirements": "Bachelor's degree in Computer Science or related field",
+			"experience": "3+ years of experience in software engineering"
+		}
+	]
 }
