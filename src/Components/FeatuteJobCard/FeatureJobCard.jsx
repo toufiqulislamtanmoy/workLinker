@@ -31,7 +31,7 @@ const FeatureJobCard = ({singleJobPost}) => {
 
                     </div>
                     <div className='mt-8'>
-                        <Link to='' className='bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>View Details</Link>
+                        <Link to='/jobDetails' className='bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>View Details</Link>
                     </div>
                 </div>
             </div>
