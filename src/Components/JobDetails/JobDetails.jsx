@@ -7,11 +7,25 @@ const JobDetails = () => {
     const { job_description, job_responsibilities, educational_requirements, experience, job_post_title, company_address, company_email, company_phone, company_name, salary_range } = jobDetails;
     const handleApplyNowClick = () => {
         const existingApplications = JSON.parse(localStorage.getItem('jobApplications')) || [];
+        
+        const isJobExists = existingApplications.find(application => application.unique_id === jobDetails.unique_id);
+        
+        if (isJobExists) {
+          alert('Job application already exists!');
+          return;
+        }
+        
         const updatedApplications = [...existingApplications, jobDetails];
+        
         localStorage.setItem('jobApplications', JSON.stringify(updatedApplications));
+        
         alert('Job application added successfully!');
-    };
-
+      };
+      
+      
+      
+      
+    
     return (
         <div className=''>
             <div className='pt-11 pb-11 bg-[#F9F9FF]'>
@@ -24,7 +38,7 @@ const JobDetails = () => {
                     <p className='text-gray-500'><span className='font-bold'>Educational Requirements: </span>{educational_requirements}</p>
                     <p className='text-gray-500'><span className='font-bold'>Experience: </span>{experience}</p>
                 </div>
-                <div className='w-[50%]'>
+                <div className='lg:w-[50%]'>
                     <div className='bg-[#e9e2fe]  p-5 rounded-md'>
                         <h3 className='mt-5 font-semibold'>Job Details</h3>
                         <hr />
@@ -55,7 +69,7 @@ const JobDetails = () => {
 
                     </div>
                     <div className='mt-5'>
-                        <button onClick={handleApplyNowClick} className='bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>Apply Now</button>
+                        <button onClick={ handleApplyNowClick} className='bg-gradient-to-r from-purple-600 to-indigo-600 hover:bg-gradient-to-r hover:from-purple-700 hover:to-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'>Apply Now</button>
                     </div>
                 </div>
             </div>
