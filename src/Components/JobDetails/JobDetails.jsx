@@ -44,22 +44,22 @@ const JobDetails = () => {
                     <div className='bg-[#e9e2fe]  p-5 rounded-md'>
                         <h3 className='mt-5 font-semibold'>Job Details</h3>
                         <hr />
-                        <div className='flex items-center mt-3'>
-                            <img src="https://i.ibb.co/5v0scQJ/Frame.png" alt="notfound" />
+                        <div className='flex items-center mt-3 gap-3'>
+                            <img src="https://i.ibb.co/2tRfCZn/Frame-2.png" alt="notfound" />
                             <p>Salary: {salary_range}</p>
                         </div>
-                        <div className='flex items-center mt-3'>
-                            <img src="https://i.ibb.co/5v0scQJ/Frame.png" alt="notfound" />
+                        <div className='flex items-center mt-3 gap-3'>
+                            <img src="https://i.ibb.co/q1RzgFf/Frame-1.png" alt="notfound" />
                             <p>Job Title: {job_post_title}</p>
                         </div>
                         <h3 className='mt-5 font-semibold'>Contact Information</h3>
 
-                        <div className='flex items-center mt-3'>
+                        <div className='flex items-center mt-3 gap-3'>
                             <img src="https://i.ibb.co/5v0scQJ/Frame.png" alt="notfound" />
                             <p>Phone: {company_phone}</p>
                         </div>
-                        <div className='flex items-center mt-3'>
-                            <img src="https://i.ibb.co/5v0scQJ/Frame.png" alt="notfound" />
+                        <div className='flex items-center mt-3 gap-3'>
+                            <img src="https://i.ibb.co/y8tx6VC/Frame-3.png" alt="notfound" />
                             <p>Email: {company_email}</p>
                         </div>
                         <div className='flex items-center mt-3'>
