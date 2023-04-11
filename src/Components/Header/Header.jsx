@@ -111,7 +111,7 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <Link
-                                                    to='/applyingjobs'
+                                                    to='/appliedjobs'
                                                     className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                                 >
                                                     Applied Jobs
