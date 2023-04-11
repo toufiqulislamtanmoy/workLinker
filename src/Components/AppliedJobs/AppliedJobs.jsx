@@ -4,7 +4,7 @@ import AppliedJobsCards from '../AppliedJobsCards/AppliedJobsCards';
 
 const AppliedJobs = () => {
     const existingApplications = JSON.parse(localStorage.getItem('jobApplications')) || [];
-    console.log(existingApplications)
+
     const [selectedOption, setSelectedOption] = useState('');
 
     const handleOptionChange = (event) => {
@@ -13,10 +13,10 @@ const AppliedJobs = () => {
     }
 
     // Filter applications based on selected option
-    const filteredApplications = selectedOption === 'Remote'
-        ? existingApplications.filter((application) => application.job_type === 'Remote')
-        : selectedOption === 'Onsite'
-            ? existingApplications.filter((application) => application.job_type === 'Onsite')
+    const filteredApplications = selectedOption === 'remote'
+        ? existingApplications.filter((application) => application.job_location === 'Remote')
+        : selectedOption === 'onsite'
+            ? existingApplications.filter((application) => application.job_location === 'Onsite')
             : existingApplications;
 
     return (
@@ -29,8 +29,8 @@ const AppliedJobs = () => {
                 <div className='flex justify-end mb-4 '>
                     <select className='bg-[#F4F4F4] p-2 border-0 outline-none rounded-md' onChange={handleOptionChange}>
                         <option value=''>Sort by</option>
-                        <option value='Remote'>Sort by Remote</option>
-                        <option value='Onsite'>Sort by Onsite</option>
+                        <option value='remote'>Sort by Remote</option>
+                        <option value='onsite'>Sort by Onsite</option>
                     </select>
                 </div>
                 <div className='mt-11'>
