@@ -42,7 +42,7 @@ const AppliedJobs = () => {
                             ></AppliedJobsCards>
                         ))
                     ) : (
-                        <p>No results found for selected option</p>
+                        <p className='text-center'>No results found for selected option</p>
                     )}
                 </div>
             </div>
