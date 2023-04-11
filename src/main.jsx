@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
-        loader: () => fetch('joblist.json')
+        loader: () => fetch('/joblist.json')
       },
       {
         path: '/statistic',
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       {
         path: '/jobDetails/:jobId',
         element: <JobDetails />,
-        loader:({params}) => fetch('featuredJob.json').then(res=>res.json()).then(data=> data.job_posts.find(job => job.unique_id === params.jobId))
+        loader:({params}) => fetch('/featuredJob.json').then(res=>res.json()).then(data=> data.job_posts.find(job => job.unique_id === params.jobId))
           
       },
     ]
