@@ -5,7 +5,7 @@ const AppliedJobsCards = ({ singleExistingApplication }) => {
     const {company_address, company_logo, job_post_title, company_name, job_type, job_location, salary_range,unique_id } = singleExistingApplication;
     return (
         <>
-            <div className='flex  items-center justify-between cardLayout px-4 py-3 mb-5'>
+            <div className='lg:flex  items-center justify-between cardLayout px-4 py-3 mb-5'>
                 <div className='flex items-center gap-5'>
                     <div className='w-28'>
                         <img src={company_logo} alt="notfound" />
