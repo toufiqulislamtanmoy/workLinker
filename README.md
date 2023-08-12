@@ -21,7 +21,7 @@ This is a job circular and job application service website that helps job seeker
 We hope that this website will help make the job search process easier for everyone.
 
 ## Live Site Link: 
-https://bespoke-creponne-c27254.netlify.app/?fbclid=IwAR1Bo3Q137gFsgPrRbqv34A0P3BuZ5DvRVPJcqekrWqog2Qnl8PXkIbFIdY)
+https://work-linker.netlify.app/)
 
 
 
